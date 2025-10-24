@@ -17,8 +17,10 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Links
 
-Live site URL : https://p3lm3shka1.github.io/NFT-card-challenge-/
+Live site URL : https://p3lm3shka1.github.io/Product-preview-card-component
+
 <br>
+
 Repository URL : https://github.com/p3lm3shka1/Product-preview-card-component
 
 ## Build with
