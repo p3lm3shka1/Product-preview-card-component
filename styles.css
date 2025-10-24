@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  background: hsl(30, 38%, 92%);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 37.2rem;
+  height: 28rem;
+  background: hsl(0, 0%, 100%);
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+
+.left-side {
+  img {
+    display: flex;
+    height: 28rem;
+    border-radius: 0.6rem 0 0 0.6rem;
+    filter: brightness(88%);
+  }
+}
+
+.right-side {
+  h4 {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    margin: 23px 20px 0 33px;
+  }
+
+  .content {
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    margin: 25px 30px 0 33px;
+    line-height: 2rem;
+  }
+
+  p {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin: 20px 30px 0 33px;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+  }
+
+  .new-price {
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 32px;
+    margin: 20px 15px 0 33px;
+  }
+
+  .old-price {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-family: "Fraunces", serif;
+    font-size: 14px;
+    margin: 10px 0 -11px 1px;
+    letter-spacing: normal;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(158, 36%, 37%);
+    border-radius: 0.5rem;
+    margin: 30px 0 0 30px;
+    width: 15rem;
+    height: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    transition: ease-in-out 0.3s;
+    gap: 10px;
+
+    &:hover {
+      cursor: pointer;
+      background: hsl(158, 42%, 18%);
+      color: hsl(0, 0%, 100%);
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    border-radius: 0.7rem;
+    overflow: hidden;
+  }
+
+  .left-side {
+    img {
+      content: url("images/image-product-mobile.jpg");
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .right-side {
+    padding-bottom: 20px;
+  }
+}
