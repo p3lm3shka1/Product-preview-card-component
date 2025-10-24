@@ -4,7 +4,7 @@
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
-## Responsive UI with **@media**
+## Responsive design with **@media**
 
 <img width="334" height="771" alt="image" src="https://github.com/user-attachments/assets/0a8367b0-e736-414d-b20e-9f4282adefcc" />
 
