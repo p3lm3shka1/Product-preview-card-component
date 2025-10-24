@@ -32,7 +32,7 @@ Repository URL : https://github.com/p3lm3shka1/Product-preview-card-component
 - **Hover effects** using CSS transitions  
 
 
-## Responsive design made with a little bit of SASS :) 
+## Responsive design made with a little bit of SCSS :) 
 
 ```css
 @media (max-width: 375px) {
